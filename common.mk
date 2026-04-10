@@ -16,3 +16,6 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 # Encryption
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
+
+# Include OrangeFox vendor files
+$(call inherit-product, vendor/recovery/fox.mk)
