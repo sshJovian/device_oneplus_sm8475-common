@@ -17,5 +17,5 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
-# Include OrangeFox vendor files
-$(call inherit-product, vendor/recovery/fox.mk)
+# Note: OrangeFox vendor files are included via the main OrangeFox source sync
+# No need to manually inherit here
