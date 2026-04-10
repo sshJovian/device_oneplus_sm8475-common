@@ -16,6 +16,3 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 # Encryption
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-
-# Note: OrangeFox vendor files are included via the main OrangeFox source sync
-# No need to manually inherit here
